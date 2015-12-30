@@ -13,7 +13,7 @@ figure;
 plot(lags / fs,rxy);
 
 [max_corr,max_shift] = max(rxy);
-max_time_shift = lags(max_shift) / fs;  %Fist divide sample frequency and get time delay;
+max_time_shift = lags(max_shift) / fs;  %First divide sample frequency and get time delay;
 [min_corr,min_shift] = min(rxy);
 min_time_shift = lags(min_shift) / fs; 
 
