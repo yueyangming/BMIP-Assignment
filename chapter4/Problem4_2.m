@@ -1,5 +1,7 @@
 % Problem 4_2
-clear all; close all;
+clear all; 
+close all;
+
 load ver_problem;
 
 N = 500;
@@ -18,12 +20,14 @@ for i = 1 :3
     average{i} = mean(ver(1: temp(i), :));
     subplot(2,3,i);
     plot(t,average{i});
+    xlim([0 5]);
     noise{i} = average{i} - actual_ver;
     std_noise(i) = std(noise{i});
     disp(['Noise std of averaged of ', num2str(temp(i)),'   ', num2str( std_noise(i) ) ]);
     disp(['Theoretical Noise std of averaged of ', num2str(temp(i)),'   ', num2str( Noise_std_unaveraged / sqrt(temp(i) ) ) ]);
     subplot(2,3,3+i);
     plot(t,noise{i});
+    xlim([0 5]);
     
 end 
 

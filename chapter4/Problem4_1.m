@@ -1,4 +1,7 @@
 % Problem 4_1
+clear all; 
+close all;
+
 load ensemble_x
 temp = randperm(100,2);
 x = x';
