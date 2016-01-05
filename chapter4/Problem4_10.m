@@ -1,5 +1,7 @@
 % Problem 4_10
-clear all; close all;
+clear all; 
+close all;
+
 %% Generate signal
 
 N = 512;
