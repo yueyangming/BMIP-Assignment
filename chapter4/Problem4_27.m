@@ -20,6 +20,8 @@ b = -sin(2*pi * k * fc) ./ (pi * k);
 
 b = [b (1-2*fc), fliplr(b)];
 b = b.*blackman(L_FIR)';
+[m,n] = size(b);
+disp(['Number of b in FIR : ',num2str(n)]);
 
 subplot(3,1,2);
 H1 = fft(b,N);
@@ -38,6 +40,11 @@ hold on;
 % IIR
 fc_IIR = fh / (fs/2);
 [b,a] = butter(L_IIR,fc_IIR,'high');
+[m,n] = size(b);
+disp(['Number of b in IIR : ', num2str(n)]);
+[m,n] = size(a);
+disp(['Number of a in IIR : ', num2str(n)]);
+
 [H,f] = freqz(b,a,N,fs);
 plot(f,abs(H),'b');
 hold off;
