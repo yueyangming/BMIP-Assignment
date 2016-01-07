@@ -16,7 +16,7 @@ p = 35;
 for i = 1:4
     
     x = sig_noise([240,260,350],-8,N(i));
-    [PS,f] = pyulear(x,p,N(i),fs);
+    [PS,f] = pmcov(x,p,N(i),fs);
     subplot(4,1,i);
     plot(f,PS);
     xlabel('Frequency');
