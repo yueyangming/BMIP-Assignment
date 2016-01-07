@@ -4,13 +4,9 @@ Hello everyone, welcom to my github site, Here i will upload and update some of 
 
 Hope it can help.
 
-Current Stats ( 2015.12.5) : 
+Current Stats ( 2016.1.7) : 
 
-Finished : Chapter 1 and Chapter 2
-
-Working : Chapter 3
-
-UnFinished :Chapter 4 and Chapter 4
+Almost everything, still debuging.....
 
 
 Two import things:
