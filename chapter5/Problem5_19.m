@@ -11,7 +11,7 @@ N = length(x);
 [U,D,V] = svd(Rxx,0);
 eigen = diag(D);
 
-for k = p + 1 : length(eigen)
+for k = p+1 : length(eigen)
     
     Sxx(k-p,:) = abs(fft(V(:,k),256)) .^2 / eigen(k);
     
