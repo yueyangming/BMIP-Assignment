@@ -11,7 +11,7 @@ Almost everything, still debuging.....
 
 Two import things:
 
-1. This is not only my project, Hope everyone can help improve it. If you find some mistake, bugs or something you think can be better, feel free to tell me, 447903563@qq.com, wechat or just talk to me during breaks.
+1. This is not only my project, Hope everyone can help improve it. If you find some mistake, bugs or something you think can be better, feel free to tell me, 447903563#qq.com, wechat or just talk to me during breaks.
 
 2. Should we keep it a secret in our class, I mean, not let our professor know it? 
 
